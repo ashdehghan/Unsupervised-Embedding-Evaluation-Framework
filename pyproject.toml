@@ -1,7 +1,7 @@
 [project]
 name = "usnet"
 version = "0.1.0"
-description = "Unsupervised Structural Node Embedding Toolkit - A framework for evaluating graph embeddings using structural node features"
+description = "USNET: Unsupervised Structural Node Embedding Toolkit - A framework for evaluating graph embeddings using structural node features"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [

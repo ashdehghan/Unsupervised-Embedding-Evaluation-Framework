@@ -1,4 +1,4 @@
-"""Graph generation utilities for usnet."""
+"""Graph generation utilities for USNET."""
 
 from __future__ import annotations
 

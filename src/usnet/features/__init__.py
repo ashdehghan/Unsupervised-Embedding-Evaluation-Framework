@@ -1,4 +1,4 @@
-"""Structural node feature extraction for usnet."""
+"""Structural node feature extraction for USNET."""
 
 from __future__ import annotations
 

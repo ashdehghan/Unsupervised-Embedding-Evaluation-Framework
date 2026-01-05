@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">usnet</h1>
+  <h1 align="center">USNET</h1>
   <p align="center">
     <strong>Unsupervised Structural Node Embedding Toolkit</strong>
   </p>
@@ -19,7 +19,7 @@
 
 ## Overview
 
-**usnet** is an unsupervised evaluation framework for graph embeddings that measures embedding quality by comparing against structural node features. It provides tools for generating synthetic graphs, extracting structural metrics, and evaluating embeddings through distance correlation, cluster consistency, and optimization-based methods.
+**USNET** is an unsupervised evaluation framework for graph embeddings that measures embedding quality by comparing against structural node features. It provides tools for generating synthetic graphs, extracting structural metrics, and evaluating embeddings through distance correlation, cluster consistency, and optimization-based methods.
 
 ### Key Features
 
@@ -31,11 +31,11 @@
 
 ---
 
-## What Problem Does usnet Solve?
+## What Problem Does USNET Solve?
 
 Evaluating graph embeddings typically requires labeled data for downstream tasks like node classification. However, obtaining labels is expensive, and task-specific evaluation may not reflect general embedding quality.
 
-**usnet addresses this by:**
+**USNET addresses this by:**
 
 1. Computing **structural node features** (centrality, PageRank, etc.) as unsupervised ground truth
 2. Measuring how well embeddings **preserve structural similarity**—nodes similar in feature space should be similar in embedding space
@@ -116,7 +116,7 @@ print(f"Learned weights: {result.weights[:5]}...")  # Top 5 dimension weights
 
 ## Evaluation Methods
 
-usnet provides three complementary evaluation approaches:
+USNET provides three complementary evaluation approaches:
 
 | Method | Description | Output | Speed |
 |--------|-------------|--------|-------|
@@ -178,7 +178,7 @@ print(f"Top 3 dimensions: {np.argsort(result.weights)[-3:]}")
 
 ## Structural Features
 
-usnet extracts 12 structural node features using NetworkX and igraph:
+USNET extracts 12 structural node features using NetworkX and igraph:
 
 | Feature | Source | Description |
 |---------|--------|-------------|
@@ -217,7 +217,7 @@ print(AVAILABLE_FEATURES)
 
 ## Synthetic Graph Generation
 
-usnet includes utilities for generating synthetic graphs with known structural patterns:
+USNET includes utilities for generating synthetic graphs with known structural patterns:
 
 ```python
 from usnet.graphs import GraphGenerator, generate_barbell, generate_star, generate_web
@@ -281,7 +281,7 @@ detailed_df.to_csv("benchmark_results.csv")
 ## Repository Structure
 
 ```
-usnet/
+USNET/
 ├── src/usnet/
 │   ├── __init__.py           # Public API exports
 │   ├── _typing.py            # Type aliases
@@ -345,11 +345,11 @@ uv run pytest tests/test_evaluation.py -v
 
 ## Citation
 
-If you use usnet in your research, please cite:
+If you use USNET in your research, please cite:
 
 ```bibtex
 @software{usnet2024,
-  title = {usnet: Unsupervised Structural Node Embedding Toolkit},
+  title = {USNET: Unsupervised Structural Node Embedding Toolkit},
   author = {Dehghan, Ash},
   year = {2024},
   url = {https://github.com/ashdehghan/usnet}

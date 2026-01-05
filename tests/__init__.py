@@ -1,1 +1,1 @@
-"""Tests for usnet package."""
+"""Tests for USNET package."""

@@ -1,4 +1,4 @@
-"""Type aliases and protocols for usnet."""
+"""Type aliases and protocols for USNET."""
 
 from __future__ import annotations
 

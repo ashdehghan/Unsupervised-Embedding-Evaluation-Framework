@@ -1,5 +1,5 @@
 """
-usnet - Unsupervised Structural Node Embedding Toolkit
+USNET - Unsupervised Structural Node Embedding Toolkit
 
 A Python library for evaluating graph embeddings using structural node features
 and unsupervised optimization-based methods.
